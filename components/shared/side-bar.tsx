@@ -47,7 +47,7 @@ export default function SideBar({ className, ...props }: ISideBarProps) {
             },
       ]
       return (
-            <div className='max-w-[1280px] mx-auto bg-red'>
+            <div className={cn("max-w-[1280px] mx-auto bg-red", className)} {...props}>
                   <SidebarProvider>
                         <Sidebar>
                               <SidebarContent>
