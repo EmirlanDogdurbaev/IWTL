@@ -5,7 +5,7 @@ import { Container } from ".";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import Image from "next/image";
-import logo from "../../public/logo.png";
+import logo from "../../public/next.svg";
 
 export interface IHeaderProps {
   className?: string;

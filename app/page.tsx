@@ -5,7 +5,7 @@ export default function Home() {
     <main className="relative">
       <Container className="flex ">
         <LeftSideBar />
-        
+         
       </Container>
     </main>
   );
