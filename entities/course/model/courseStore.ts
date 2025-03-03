@@ -5,6 +5,7 @@ interface Course {
   id: number;
   title: string;
   description: string;
+  url: string;
 }
 
 interface CourseStore {
