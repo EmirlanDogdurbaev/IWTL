@@ -5,3 +5,10 @@ export async function getCourses() {
   if (!res.ok) throw new Error("Ошибка загрузки курсов");
   return res.json();
 }
+
+
+export async function getCoursesByID() {
+  const res = await fetch(`${API_URL}/photos/1`);
+  if (!res.ok) throw new Error("Ошибка загрузки курсов");
+  return res.json();
+}

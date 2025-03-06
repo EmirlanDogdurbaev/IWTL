@@ -29,10 +29,10 @@ export default function CourseCard({
       initial={{
         opacity: 0,
         y: 10,
-        x: 10,
+        x: 0,
       }}
       animate={{ opacity: 1, y: 0, x: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1.3 }}
     >
       <Card
         className="overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl w-full max-w-[350px] h-[420px] flex flex-col
